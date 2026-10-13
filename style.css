@@ -19,6 +19,7 @@ p,li{max-width:72ch}a{color:var(--accent)}code{font-size:.9em;background:var(--t
 table{border-collapse:collapse;width:100%;font-size:.92rem}th,td{padding:8px 10px;text-align:left;vertical-align:top;border-bottom:1px solid var(--border)}
 th{background:var(--th);font-weight:600;white-space:nowrap}tr:last-child td{border-bottom:0}
 .badge{display:inline-block;padding:3px 10px;border-radius:999px;font-size:.85rem;font-weight:600}
+tr.grp td{background:var(--th);font-weight:650}td .badge{white-space:nowrap}
 .good{color:var(--good);background:var(--goodbg)}.mid{color:var(--mid);background:var(--midbg)}.bad{color:var(--bad);background:var(--badbg)}
 .metrics{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px;margin:16px 0 8px}
 .metric{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:10px 12px}
